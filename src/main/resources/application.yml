@@ -1,0 +1,22 @@
+spring:
+  security:
+    user:
+      name: MaheshSakole      # Set your desired username here
+      password: Mahesh123@   # Set your desired password here
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/servervalidation
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+
+# Other configurations
+server:
+  port: 8080
